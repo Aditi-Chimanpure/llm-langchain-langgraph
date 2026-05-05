@@ -1,0 +1,48 @@
+# ── Exclude other cohort folders (separate repos / not included) ──
+NLP/
+Vector-DB/
+vector_db_module_files-1/
+
+# ── Environment variables (API keys — never commit these) ──
+.env
+.env.*
+*.env
+
+# ── Large model files (exceed GitHub's 100 MB limit) ──
+*.safetensors
+*.pt
+*.pth
+*.bin
+*.ckpt
+*.h5
+fine_tuned_model/
+my_saved_models/
+test_trainer/
+
+# ── Python ──
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.pyo
+
+# ── Jupyter ──
+.ipynb_checkpoints/
+
+# ── macOS ──
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# ── Type checkers / linters ──
+.mypy_cache/
+
+# ── Virtual environments ──
+.venv/
+venv/
+env/
+ENV/
+
+# ── IDEs ──
+.vscode/
+.idea/
