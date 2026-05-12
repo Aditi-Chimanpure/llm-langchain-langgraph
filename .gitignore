@@ -1,6 +1,6 @@
 # ── Exclude other cohort folders (separate repos / not included) ──
 NLP/
-Vector-DB/
+# Vector-DB/
 vector_db_module_files-1/
 
 # ── Environment variables (API keys — never commit these) ──
