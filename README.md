@@ -1,6 +1,6 @@
-# LLM · Langchain · LangGraph
+# LLM · Langchain · LangGraph · Vector DB
 
-A collection of hands-on notebooks covering large language models, Langchain pipelines, and agentic workflows built with LangGraph.
+A collection of hands-on notebooks covering large language models, Langchain pipelines, agentic workflows with LangGraph, and vector database search with Pinecone.
 
 ---
 
@@ -37,6 +37,17 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 
 ---
 
+### 🗄️ Vector DB (`/Vector-DB`)
+
+| Project | Description |
+|---|---|
+| **Pinecone Introduction** | Connecting to Pinecone, creating serverless indexes, and upserting vectors |
+| **Course Semantic Search** | Embedding course descriptions with `SentenceTransformer` and querying Pinecone for semantically similar courses |
+| **Section Search with BERT** | Extending semantic search to course sections using BERT embeddings and weighted Pinecone queries |
+| **FineWeb Vector Store** | Loading the FineWeb dataset from HuggingFace, embedding with `SentenceTransformer`, and indexing into Pinecone |
+
+---
+
 ## Topics Covered
 
 - Large Language Models (LLMs) & the OpenAI API
@@ -46,7 +57,8 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 - LangChain Expression Language (LCEL)
 - Retrieval Augmented Generation (RAG)
 - Agentic workflows with LangGraph
+- Vector databases with Pinecone — indexing, upserting, semantic search
 
 ## Stack
 
-`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph`
+`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph` · `Pinecone` · `SentenceTransformers`
