@@ -48,6 +48,14 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 
 ---
 
+### 🎙️ Speech Recognition (`/Speech Recognition`)
+
+| Project | Description |
+|---|---|
+| **Speech Recognition** | Audio waveform analysis with `librosa`, transcription via Google Web Speech API and OpenAI Whisper, batch transcription to CSV, and Text-to-Speech with `gTTS` |
+
+---
+
 ## Topics Covered
 
 - Large Language Models (LLMs) & the OpenAI API
@@ -58,7 +66,9 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 - Retrieval Augmented Generation (RAG)
 - Agentic workflows with LangGraph
 - Vector databases with Pinecone — indexing, upserting, semantic search
+- Speech recognition with Google Web Speech API and OpenAI Whisper
+- Audio processing with `librosa` and Text-to-Speech with `gTTS`
 
 ## Stack
 
-`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph` · `Pinecone` · `SentenceTransformers`
+`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph` · `Pinecone` · `SentenceTransformers` · `Whisper` · `librosa`
