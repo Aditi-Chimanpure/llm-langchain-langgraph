@@ -66,7 +66,7 @@ A collection of hands-on notebooks and apps covering large language models, Lang
 
 ---
 
-### 🚀 Mini Project — PrepAI (`/PrepAI`)
+### 🚀 Mini Project — PrepAI (`/PrepAI`) · [Live Demo](https://prep-ai-tool.streamlit.app/)
 
 An AI-powered mock interview app built with Streamlit and GPT-4o.
 
