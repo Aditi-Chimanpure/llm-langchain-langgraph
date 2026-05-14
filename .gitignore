@@ -46,3 +46,4 @@ ENV/
 # ── IDEs ──
 .vscode/
 .idea/
+.streamlit/secrets.toml
