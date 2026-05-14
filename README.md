@@ -1,6 +1,6 @@
-# LLM · Langchain · LangGraph · Vector DB
+# LLM · Langchain · LangGraph · Vector DB · Streamlit
 
-A collection of hands-on notebooks covering large language models, Langchain pipelines, agentic workflows with LangGraph, and vector database search with Pinecone.
+A collection of hands-on notebooks and apps covering large language models, Langchain pipelines, agentic workflows with LangGraph, vector database search with Pinecone, and Streamlit-based AI applications.
 
 ---
 
@@ -56,6 +56,27 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 
 ---
 
+### 🖥️ Streamlit Fundamentals (`/Streamlit`)
+
+| File | Description |
+|---|---|
+| `app.py` | Core UI elements — titles, headers, markdown, and displaying data with `st.write` |
+| `session_state.py` | Managing state across reruns with `st.session_state` and nested button logic |
+| `chat_elements.py` | Chat UI basics using `st.chat_message` and `st.chat_input` |
+
+---
+
+### 🚀 Mini Project — PrepAI (`/PrepAI`)
+
+An AI-powered mock interview app built with Streamlit and GPT-4o.
+
+- User fills in their **name, experience, skills, target level, position, and company**
+- GPT-4o acts as an HR interviewer and conducts a **5-question mock interview**
+- After the interview, generates a **score (1–10) and written feedback** on performance
+- Built with `streamlit`, `openai`, and `streamlit-js-eval` for session reset
+
+---
+
 ## Topics Covered
 
 - Large Language Models (LLMs) & the OpenAI API
@@ -68,7 +89,9 @@ A collection of hands-on notebooks covering large language models, Langchain pip
 - Vector databases with Pinecone — indexing, upserting, semantic search
 - Speech recognition with Google Web Speech API and OpenAI Whisper
 - Audio processing with `librosa` and Text-to-Speech with `gTTS`
+- Streamlit — UI elements, session state, chat interface
+- Building end-to-end AI apps with Streamlit + OpenAI
 
 ## Stack
 
-`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph` · `Pinecone` · `SentenceTransformers` · `Whisper` · `librosa`
+`Python` · `Jupyter Notebooks` · `OpenAI` · `HuggingFace Transformers` · `Langchain` · `LangGraph` · `Pinecone` · `SentenceTransformers` · `Whisper` · `librosa` · `Streamlit`
